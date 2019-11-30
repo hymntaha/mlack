@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import { makeExecutableSchema } from 'graphql-tools';
+import models from './models';
 
 import typeDefs from './schema';
 import resolvers from './resolvers';
