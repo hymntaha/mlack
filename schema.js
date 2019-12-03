@@ -10,6 +10,7 @@ export default `
     name: String!
     public: Boolean!
     messages: [Messages]!
+    users:[User!]!
   }  
 
   type Message {
@@ -23,7 +24,6 @@ export default `
     id: Int!
     username: String!
     email: String!
-    messages: Message!
     teams: [Team!]!
   }
 
