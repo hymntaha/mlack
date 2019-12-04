@@ -1,6 +1,6 @@
 export default `
   type Team {
-    ownder: User!
+    owner: User!
     members: [User!]!
     channels: [Channel!]!
   }
