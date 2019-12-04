@@ -4,7 +4,7 @@ import { graphqlExpress, graphiqlExpress } from "apollo-server-express";
 import { makeExecutableSchema } from "graphql-tools";
 import models from "./models";
 
-import typeDefs from "./schema";
+import typeDefs from "./schema/schema";
 import resolvers from "./resolvers";
 
 export const schema = makeExecutableSchema({
